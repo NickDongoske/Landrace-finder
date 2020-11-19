@@ -4,7 +4,7 @@ var map = L.map('map').setView([0, 0], 1);
         L.tileLayer(
             'https://api.maptiler.com/maps/streets/{z}/{x}/{y}.png?key=AmzwTmJOo3SPEWU52EEz', {
             attribution: 'Map data; ' + mapLink,
-            maxZoom: 20,
+            maxZoom: 5,
             minZoom: 1.5,
             }).addTo(map);
             var cannabisLeaf = L.icon({
