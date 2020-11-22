@@ -5,7 +5,7 @@ var map = L.map('map').setView([0, 0], 1);
             'https://api.maptiler.com/maps/streets/{z}/{x}/{y}.png?key=AmzwTmJOo3SPEWU52EEz', {
             attribution: 'Map data; ' + mapLink,
             maxZoom: 5,
-            minZoom: 1.5,
+            minZoom: 1,
             }).addTo(map);
             var cannabisLeaf = L.icon({
               iconUrl: 'https://pluspng.com/img-png/weed-png-hd-weed-20symbol-20png-2000.png',
