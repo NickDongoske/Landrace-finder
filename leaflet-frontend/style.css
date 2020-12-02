@@ -27,3 +27,25 @@
    color: darkblue;
 }
 
+header {
+   display: flex;
+   justify-content: center;
+   font-size: 30px;
+}
+
+body {
+   padding: 0;
+   margin: 0;
+}
+html{
+   height: 100vh;
+   width: 100vw;
+   /* display: flex;
+   justify-content: center;
+   align-items: center; */
+ }
+ body, #map {
+   height: 50vh;
+   width: 50vw;
+   
+}
