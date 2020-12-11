@@ -36,3 +36,10 @@ function displayContent(locations) {
 
   
 
+// on click of INDICA checkbox, checkbox REMOVES sativa varieties from map
+// filter through seeds
+
+  
+
+// IDEAS
+// API for current weather data?DSFLKJ:
