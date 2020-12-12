@@ -14,13 +14,12 @@ var map = L.map('map').setView([0, 0], 1);
             })
   
 
-  fetch('http://localhost:3000/locations')
+fetch('http://localhost:3000/locations')
     .then(response => response.json())
     .then(locations => displayContent(locations))
 
-
+  
 function displayContent(locations) {
- console.log(locations)
  locations.forEach(location => {
    const marker = new L.marker([location.lat, location.long], {icon: cannabisLeaf}).bindPopup(`Strain: ${location.name} <br> ${location.lat} `).addTo(map);
    marker.on('click', function(){
@@ -34,11 +33,25 @@ function displayContent(locations) {
  })
 }
 
+fetch('http://localhost:3000/locations')
+    .then(response => response.json())
+    .then(locations => displayIndica(locations))
+
+function displayIndica(locations) {
+  locations.forEach(location => {
+    console.log(location)
+  })
+}
+
+
+
+
   
 
 // on click of INDICA checkbox, checkbox REMOVES sativa varieties from map
 // filter through seeds
 
+// if location.name === "indica"
   
 
 // IDEAS

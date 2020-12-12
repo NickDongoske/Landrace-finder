@@ -11,6 +11,7 @@ Location.destroy_all
 sinai = Location.create(
   name: 'Sinai', 
   location: 'Egypt',
+  species: 'Indica',
   elevation: '5200 ft',
   climate: 'Desert/Mountains',
   lat: 29.987049 ,
@@ -19,6 +20,7 @@ sinai = Location.create(
 hinduKush = Location.create(
   name: 'Hindu Kush', 
   location: 'Pakistan/Afghanistan',
+  species: 'Indica',
   elevation: '7000 ft',
   climate: 'Desert/Mountains',
   lat: 36.929809 ,
@@ -27,6 +29,7 @@ hinduKush = Location.create(
 pakistaniChitralKush = Location.create(
   name: 'Pakistani Chitral Kush', 
   location: 'Pakistan',
+  species: 'Indica',
   elevation: '4900 ft',
   climate: 'Desert/Mountains',
   lat: 35.768642,
@@ -35,6 +38,7 @@ pakistaniChitralKush = Location.create(
 durbanPoison = Location.create(
   name: 'Durban Poison', 
   location: 'South Africa',
+  species: 'Sativa',
   elevation: '100 ft',
   climate: 'Subtropical',
   lat: -29.903993,
@@ -43,6 +47,7 @@ durbanPoison = Location.create(
 lambsBread = Location.create(
   name: 'Lambs Bread', 
   location: 'Jamaica',
+  species: 'Sativa',
   elevation: '300 ft',
   climate: 'Tropical',
   lat: 18.227144,
@@ -51,6 +56,7 @@ lambsBread = Location.create(
 colombianGold = Location.create(
   name: 'Colombian Gold', 
   location: 'Colombia',
+  species: 'Sativa',
   elevation: '4000 ft',
   climate: 'Tropical/Mountains',
   lat: 11.171647,
@@ -59,6 +65,7 @@ colombianGold = Location.create(
 acapulcoGold = Location.create(
   name: 'Acapulco Gold', 
   location: 'Mexico',
+  species: 'Sativa',
   elevation: '3500 ft',
   climate: 'Desert/Mountains',
   lat: 16.889946,
@@ -67,6 +74,7 @@ acapulcoGold = Location.create(
 panamaRed = Location.create(
   name: 'Panama Red', 
   location: 'Panama',
+  species: 'Sativa',
   elevation: '5203 ft',
   climate: 'Tropical/Mountains',
   lat: 9.248704,
@@ -75,6 +83,7 @@ panamaRed = Location.create(
 aceh = Location.create(
   name: 'Aceh', 
   location: 'Indonesia',
+  species: 'Sativa',
   elevation: '4000 ft',
   climate: 'Tropical/Mountains',
   lat: 3.656435,
@@ -83,6 +92,7 @@ aceh = Location.create(
 thai = Location.create(
   name: 'Thai', 
   location: 'Thailand',
+  species: 'Sativa',
   elevation: '600 ft',
   climate: 'Tropical',
   lat: 14.409035,
@@ -91,6 +101,7 @@ thai = Location.create(
 malawi = Location.create(
   name: 'Malawi', 
   location: 'Malawi',
+  species: 'Sativa',
   elevation: '3900 ft',
   climate: 'Subtropical',
   lat: -13.754058,
@@ -101,6 +112,7 @@ malawi = Location.create(
 ketama = Location.create(
   name: 'Ketama', 
   location: 'Morocco',
+  species: 'Indica',
   elevation: '1800 ft',
   climate: 'Subtropical',
   lat: 35.178002 ,
@@ -109,6 +121,7 @@ ketama = Location.create(
 brazilAmazonia = Location.create(
   name: 'Brazil Amazonia', 
   location: 'Brazil',
+  species: 'Sativa',
   elevation: '2000 ft',
   climate: 'Tropical/Subtropical',
   lat: -26.357113,
@@ -117,6 +130,7 @@ brazilAmazonia = Location.create(
 malanaCream = Location.create(
   name: 'Malana Cream', 
   location: 'India',
+  species: 'Indica',
   elevation: '8700 ft',
   climate: 'Arid/Mountains',
   lat: 32.063101,
@@ -125,6 +139,7 @@ malanaCream = Location.create(
 orissa = Location.create(
   name: 'Orissa', 
   location: 'India',
+  species: 'Sativa',
   elevation: '1500 ft',
   climate: 'Tropical',
   lat: 21.001256,
