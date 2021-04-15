@@ -1,24 +1,3 @@
-# README
+The idea was to create a map/forum for finding various, genetically unique, heirloom strains of cannabis around the world, from the Himalayas to Brazil. I think that unique genetics that are less hybridized and worked by humans are going to become important to reduce an overall inbreeding depression throughout the US cannabis gene pool. 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+The main problem I had was, how on earth do I verify some farmer who lives on the side of the himalayas at 12,000 feet? I don't wanna be too closed minded, but I don't think we'll just be able to hop on zoom, or that he'll have any reason to verify his weed field for some other people in America. 
